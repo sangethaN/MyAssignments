@@ -67,11 +67,8 @@ public static void main(String[] args) {
 		
 	}
 	System.out.println("-------------------------------------------------------");
-//	//we can sort by clicking on the train name
-//	 WebElement elementTrain = driver.findElement(By.xpath("//b[text()='Train Name']"));  //not working 
-//	 elementTrain.click();
-//	 
 
+//to sort
 	driver.findElement(By.linkText("Train Name")).click();
 	
 	
